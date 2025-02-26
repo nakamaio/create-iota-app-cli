@@ -1,0 +1,47 @@
+{
+  "name": "@nakamaio/create-iota-app",
+  "version": "1.0.0",
+  "description": "CLI tool to create IOTA applications from templates",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "create-iota-app": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "iota",
+    "cli",
+    "create-app",
+    "template",
+    "scaffold",
+    "next.js",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "Nakama.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakamaio/create-iota-app-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nakamaio/create-iota-app-cli/issues"
+  },
+  "homepage": "https://github.com/nakamaio/create-iota-app-cli#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "degit": "^2.8.4",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
