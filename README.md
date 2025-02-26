@@ -1,6 +1,6 @@
 # Create IOTA App
 
-[![npm version](https://img.shields.io/npm/v/@nakamaio/create-iota-app.svg)](https://www.npmjs.com/package/@nakamaio/create-iota-app)
+[![npm version](https://img.shields.io/npm/v/create-iota-app.svg)](https://www.npmjs.com/package/create-iota-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A command-line interface (CLI) tool for creating IOTA applications from templates. Get started with IOTA development in seconds!
@@ -8,7 +8,7 @@ A command-line interface (CLI) tool for creating IOTA applications from template
 ## Quick Overview
 
 ```bash
-npx @nakamaio/create-iota-app my-app
+npx create-iota-app my-app
 ```
 
 _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher)_
@@ -26,7 +26,7 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 ### Global Installation (Optional)
 
 ```bash
-npm install -g @nakamaio/create-iota-app
+npm install -g create-iota-app
 ```
 
 Then you can run:
@@ -38,7 +38,7 @@ create-iota-app my-app
 ### Using npx (Recommended)
 
 ```bash
-npx @nakamaio/create-iota-app my-app
+npx create-iota-app my-app
 ```
 
 ## Available Templates
@@ -75,7 +75,7 @@ Choose from our carefully curated templates:
 1. Run the create command:
 
 ```bash
-npx @nakamaio/create-iota-app my-app
+npx create-iota-app my-app
 ```
 
 2. Choose your template from the interactive prompt

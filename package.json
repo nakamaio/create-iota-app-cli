@@ -1,11 +1,11 @@
 {
-  "name": "@nakamaio/create-iota-app",
+  "name": "create-iota-app",
   "version": "1.0.0",
   "description": "CLI tool to create IOTA applications from templates",
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "create-iota-app": "./src/index.js"
+    "create-iota-app": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js"
