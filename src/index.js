@@ -148,6 +148,8 @@ program
       console.error(chalk.red("Error:"), error);
       process.exit(1);
     }
+
+    process.exit(0);
   });
 
 program.parse();
